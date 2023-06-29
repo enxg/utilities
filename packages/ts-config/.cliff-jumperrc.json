@@ -1,0 +1,6 @@
+{
+  "name": "ts-config",
+  "org": "enxg",
+  "install": true,
+  "packagePath": "packages/ts-config"
+}
