@@ -1,0 +1,41 @@
+{
+  "name": "@enxg/ts-config",
+  "version": "1.0.0",
+  "description": "TypeScript configurations used by my projects",
+  "license": "MIT",
+  "main": "base.json",
+  "exports": {
+    ".": {
+      "import": "./base.json",
+      "require": "./base.json"
+    },
+    "./without-decorators": {
+      "import": "./without-decorators.json",
+      "require": "./without-decorators.json"
+    },
+    "./nuxt": {
+        "import": "./nuxt.json",
+        "require": "./nuxt.json"
+    }
+  },
+  "homepage": "https://github.com/enxg/utilities/tree/main/packages/ts-config",
+  "files": [
+    "./base.json",
+    "./without-decorators.json",
+    "./nuxt.json"
+  ],
+  "engines": {
+    "node": ">=v16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enxg/utilities.git",
+    "directory": "packages/ts-config"
+  },
+  "bugs": {
+    "url": "https://github.com/enxg/utilities/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
