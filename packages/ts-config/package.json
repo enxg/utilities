@@ -1,21 +1,25 @@
 {
   "name": "@enxg/ts-config",
   "version": "1.0.0",
-  "description": "TypeScript configurations used by my projects",
+  "description": "TypeScript configuration used by my projects",
   "license": "MIT",
   "main": "base.json",
+  "scripts": {
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
   "exports": {
     ".": {
-      "import": "./base.json",
-      "require": "./base.json"
+      "import": "./ts-config.json",
+      "require": "./ts-config.json"
     },
     "./without-decorators": {
       "import": "./without-decorators.json",
       "require": "./without-decorators.json"
     },
     "./nuxt": {
-        "import": "./nuxt.json",
-        "require": "./nuxt.json"
+      "import": "./nuxt.json",
+      "require": "./nuxt.json"
     }
   },
   "homepage": "https://github.com/enxg/utilities/tree/main/packages/ts-config",
