@@ -14,9 +14,15 @@
     "turbo": "latest",
     "typescript": "^5.1.6"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enxg/utilities.git"
+  },
+  "engines": {
+    "node": ">=v16.0.0"
+  },
   "packageManager": "yarn@3.6.0",
   "workspaces": [
-    "apps/*",
     "packages/*"
   ]
 }
