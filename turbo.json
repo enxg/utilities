@@ -2,6 +2,10 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {},
-    "lint": {}
+    "lint": {},
+    "bump": {
+      "outputs": ["CHANGELOG.MD"]
+    },
+    "check-update": {}
   }
 }
