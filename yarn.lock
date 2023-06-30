@@ -67,6 +67,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@enxg/prettier-config@workspace:packages/prettier-config":
+  version: 0.0.0-use.local
+  resolution: "@enxg/prettier-config@workspace:packages/prettier-config"
+  languageName: unknown
+  linkType: soft
+
 "@enxg/ts-config@workspace:packages/ts-config":
   version: 0.0.0-use.local
   resolution: "@enxg/ts-config@workspace:packages/ts-config"
