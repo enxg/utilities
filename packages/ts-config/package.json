@@ -10,8 +10,8 @@
   },
   "exports": {
     ".": {
-      "import": "./ts-config.json",
-      "require": "./ts-config.json"
+      "import": "./tsconfig.json",
+      "require": "./tsconfig.json"
     },
     "./without-decorators": {
       "import": "./without-decorators.json",
