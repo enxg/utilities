@@ -1,0 +1,6 @@
+{
+  "name": "prettier-config",
+  "org": "enxg",
+  "install": true,
+  "packagePath": "packages/prettier-config"
+}
