@@ -1,0 +1,35 @@
+{
+  "name": "@enxg/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration used by my projects",
+  "license": "MIT",
+  "main": ".prettierrc.json",
+  "scripts": {
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
+  "exports": {
+    ".": {
+      "import": "./.prettierrc.json",
+      "require": "./.prettierrc.json"
+    }
+  },
+  "homepage": "https://github.com/enxg/utilities/tree/main/packages/prettier-config",
+  "files": [
+    "./.prettierrc.json"
+  ],
+  "engines": {
+    "node": ">=v16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enxg/utilities.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/enxg/utilities/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
