@@ -2,6 +2,8 @@
   "extends": "./without-decorators.json",
   "compilerOptions": {
     "jsx": "preserve",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "Node",
     "allowJs": true,
     "baseUrl": ".",
