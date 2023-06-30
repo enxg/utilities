@@ -54,7 +54,7 @@ commit_parsers = [
   { body = ".*security", group = "🛡️ Security"},
 ]
 filter_commits = false
-tag_pattern = "@enxg/ts-config@[0-9]*"
+tag_pattern = "@enxg/prettier-config@[0-9]*"
 ignore_tags = ""
 topo_order = false
 sort_commits = "newest"
