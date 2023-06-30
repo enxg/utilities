@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "TypeScript configuration used by my projects",
   "license": "MIT",
-  "main": "base.json",
+  "main": "tsconfig.json",
   "scripts": {
     "bump": "cliff-jumper",
     "check-update": "cliff-jumper --dry-run"
