@@ -23,6 +23,7 @@
     "node": ">=v16.0.0"
   },
   "packageManager": "yarn@3.6.0",
+  "prettier": "./packages/prettier-config/.prettierrc.json",
   "workspaces": [
     "packages/*"
   ]
