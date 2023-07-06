@@ -12,7 +12,7 @@
 
 ```json
 {
-	"extends": "@enxg/ts-config"
+  "extends": "@enxg/ts-config"
 }
 ```
 
@@ -20,7 +20,7 @@
 
 ```json
 {
-	"extends": "@enxg/ts-config/without-decorators"
+  "extends": "@enxg/ts-config/without-decorators"
 }
 ```
 
@@ -28,6 +28,6 @@
 
 ```json
 {
-	"extends": "@enxg/ts-config/nuxt"
+  "extends": "@enxg/ts-config/nuxt"
 }
 ```

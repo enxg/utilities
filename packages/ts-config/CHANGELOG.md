@@ -35,4 +35,3 @@ All notable changes to this project will be documented in this file.
 ### 🚀 Features
 
 - Update compilation target and change base config file name
-

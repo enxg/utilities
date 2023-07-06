@@ -11,6 +11,7 @@
 ### Base Config
 
 package.json
+
 ```json
 {
   "name": "my-project",
