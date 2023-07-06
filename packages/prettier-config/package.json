@@ -1,6 +1,6 @@
 {
   "name": "@enxg/prettier-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prettier configuration used by my projects",
   "license": "MIT",
   "main": ".prettierrc.json",
